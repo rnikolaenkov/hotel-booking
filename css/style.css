@@ -86,6 +86,11 @@
   color: #333333;
   text-decoration: none;
   padding-left: 38px;
+  transition: 0.2s;
+}
+
+.header__navtop-link:hover {
+  opacity: 0.65;
 }
 
 .header__navtop-link_image_gift:before {
@@ -94,6 +99,16 @@
   width: 18px;
   height: 18px;
   background: url('../images/gift.svg') no-repeat center center;
+  position: absolute;
+  left: 0;
+}
+
+.header__navtop-link_image_loyalty:before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url('../images/star.svg') no-repeat center center;
   position: absolute;
   left: 0;
 }
