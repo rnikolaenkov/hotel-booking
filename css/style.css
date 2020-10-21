@@ -1,0 +1,100 @@
+/* mulish-regular - latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/mulish-v1-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/mulish-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/mulish-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/mulish-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/mulish-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/mulish-v1-latin-regular.svg#Mulish') format('svg'); /* Legacy iOS */
+}
+/* mulish-700 - latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/mulish-v1-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/mulish-v1-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/mulish-v1-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/mulish-v1-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/mulish-v1-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/mulish-v1-latin-700.svg#Mulish') format('svg'); /* Legacy iOS */
+}
+
+.root {
+  min-width: 1440px;
+}
+
+/* start header */
+.header {
+  /* width: 100%; */
+}
+
+.header__navtop {
+  padding: 24px 165px 23px;
+  background-color: #F5FAFE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__contact {
+  margin: 0;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #333333;
+}
+
+.header__contact-focus {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  color: #333333;
+}
+
+.header__navtop-items {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__navtop-item {
+  margin-right: 99px;
+}
+
+.header__navtop-item:last-child {
+  margin-right: 0;
+}
+
+.header__navtop-link {
+  position: relative;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.header__navtop-link_image_gift:before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url('../images/gift.svg') no-repeat center center;
+  position: absolute;
+  left: -38px;
+}
+
+/* end header */
