@@ -85,6 +85,7 @@
   line-height: 13px;
   color: #333333;
   text-decoration: none;
+  padding-left: 38px;
 }
 
 .header__navtop-link_image_gift:before {
@@ -94,7 +95,7 @@
   height: 18px;
   background: url('../images/gift.svg') no-repeat center center;
   position: absolute;
-  left: -38px;
+  left: 0;
 }
 
 /* end header */
